@@ -14,12 +14,16 @@ const IndexPage = ({ data }) => {
   <Layout>
     <Seo title="Spie_NRJ" />
     <main className='grid-container'>
-      {product.map(product => (
-        <article key={product.id} className='grid-item'>
-          <h2>{product.id}</h2>
-            <item className='grid-item'>
-            <h3>{product.products[groups]}</h3>
-            </item>
+      {product.map(prod => (
+        <article key={prod.id} className='grid-item'>
+          <h2>{prod.id}</h2>
+            <items className='grid-item'>
+              {product.map(item => (
+                <item className='grid-item'>
+                  <h4> {item.group}</h4>
+                </item>
+              ))}
+            </items>
         </article>
       ))}
     </main>
