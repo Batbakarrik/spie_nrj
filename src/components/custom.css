@@ -4,7 +4,7 @@ body {
 
 .grid-container {
   display: grid;
-  padding-top: 156px;
+  padding-top: 20px;
   /* Define Auto Row size */
   grid-auto-rows: max-content;
   /*Define our columns */

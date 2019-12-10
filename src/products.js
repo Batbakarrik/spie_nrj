@@ -6,9 +6,9 @@ module.exports = [
       id: 'Relais de protection',
       items: [
         {
-          id:'SFT2841',
-          url:'',
-          pic:'',
+          id:'SFT2841 V16.2',
+          url:'..\..\Doc_et_Prog\schneider\Prog\Setup_SFT2841_V16.2.zip',
+          pic:'/ico_zip_25x25.png',
         },
         {
           id:'SFTxxxx',
