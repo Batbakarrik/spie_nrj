@@ -4,7 +4,7 @@ body {
 
 .grid-container {
   display: grid;
-  padding-top: 20px;
+  padding-top: 10px;
   /* Define Auto Row size */
   grid-auto-rows: max-content;
   /*Define our columns */
@@ -13,6 +13,7 @@ body {
 }
 
 .grid-item {
+  border: 0.5px solid #fff;
   border-radius: 10px;
   padding: 20px;
   color: #fff;
@@ -64,4 +65,32 @@ footer {
 
 footer a {
   color: white;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }

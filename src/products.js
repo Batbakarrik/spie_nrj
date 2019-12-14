@@ -2,71 +2,141 @@ module.exports = [
   {
     id: 'Schneider',
     groups: [ 
-    {
-      id: 'Relais de protection',
-      items: [
-        {
-          id:'SFT2841 V16.2',
-          url:'..\..\Doc_et_Prog\schneider\Prog\Setup_SFT2841_V16.2.zip',
-          pic:'/ico_zip_25x25.png',
-        },
-        {
-          id:'SFTxxxx',
-          url:'',
-          pic:'',
-        },
+      {
+        id: 'Relais de protection',
+        items: [
+          {
+            id:'SEPAM2000',
+            devices: [
+              {
+                id:'SFT2841 V16.2',
+                url:'C:/Code/spie_nrj/src/products.js',
+                pic:'/ico_zip_25x25.png'
+              }
+            ]
+          },
+          {
+            id:'SEPAM1000',
+            devices: [
+              {
+                id:'',
+                url:'',
+                pic:''
+              }
+            ]
+          },
         ],
-    },
-    {
-     id: 'Centrale de mesures',
-      items: [
-        {
-          id:'1',
-          url:'',
-          pic:'',
-        },
-        {
-          id:'2',
-          url:'',
-          pic:'',
-        },
+      },
+      {
+      id: 'Centrale de mesures',
+        items: [
+          {
+            id:'PM5500',
+            devices: [
+              {
+                id:'',
+                url:'',
+                pic:''
+              }
+            ]
+          },
         ],
-    },
+      },
     ],
   },
   {
-    id: 'Siemens',
-    groups: [
-    {
-      id: 'Relais de protection',
-      items: [
-        {
-          id:'Siprotec 4',
-          url:'',
-          pic:'',
-        },
-        {
-          id:'Siprotec 5',
-          url:'',
-          pic:'',
-        },
+    id: 'SIEMENS',
+    groups: [ 
+      {
+        id: 'Relais de protection',
+        items: [
+          {
+            id:'SIPROTEC 4',
+            devices: [
+              {
+                id:'DIGSI3',
+                url:'',
+                pic:''
+              }
+            ]
+          },
+          {
+            id:'SIPROTEC 5',
+            devices: [
+              {
+                id:'IGSI5',
+                url:'',
+                pic:''
+              }
+            ]
+          },
         ],
-    },
-    {
+      },
+      {
       id: 'Centrale de mesures',
-      items: [
-        {
-          id:'1',
-          url:'',
-          pic:'',
-        },
-        {
-          id:'2',
-          url:'',
-          pic:'',
-        },
+        items: [
+          {
+            id:'SIMEAS',
+            devices: [
+              {
+                id:'',
+                url:'',
+                pic:''
+              },
+              {
+                id:'',
+                url:'',
+                pic:''
+              }
+            ]
+          },
         ],
-    },
+      },
+    ],
+  },
+  {
+    id: 'ABB',
+    groups: [ 
+      {
+        id: 'Relais de protection',
+        items: [
+          {
+            id:'REF615',
+            devices: [
+              {
+                id:'',
+                url:'',
+                pic:''
+              },
+              {
+                id:'',
+                url:'',
+                pic:''
+              }
+            ]
+          },
+        ],
+      },
+      {
+      id: 'Centrale de mesures',
+        items: [
+          {
+            id:'',
+            devices: [
+              {
+                id:'',
+                url:'',
+                pic:''
+              },
+              {
+                id:'',
+                url:'',
+                pic:''
+              }
+            ]
+          },
+        ],
+      },
     ],
   },
 ]

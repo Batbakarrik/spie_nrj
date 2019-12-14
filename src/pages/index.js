@@ -25,9 +25,12 @@ const IndexPage = ({ data }) => {
                     <main className='grid-container'>
                       {group.items.map(item => (
                         <article key={item.id} className='grid-item'>
-                          <h5>{item.id}</h5>
-                          <h5>{item.url}</h5>
-                          <h5>{item.pic}</h5>
+                          <h4>{item.id}</h4>
+                            <main className='grid-container'>
+                              {item.devices.map(device => (
+                                  <h5 key={device.id}>{device.id} <a href={device.url}>Télécharger</a> </h5>
+                              ))}
+                            </main>
                         </article>
                         ))}
                     </main>
@@ -51,9 +54,12 @@ export const query = graphql`
           groups {
             id
             items {
-              url
               id
-              pic
+              devices {
+                id
+                pic
+                url
+              }
             }
           }
           id
